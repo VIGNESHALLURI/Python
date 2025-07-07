@@ -1,4 +1,8 @@
-s = "VIGNESH VARMA RCBIAN"
-words = s.split()
-reversed_words = [word[::-1] for word in words]
-print(" ".join(reversed_words))
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100),
+    hire_date DATE,
+    salary DECIMAL(10, 2)
+);
