@@ -1,6 +1,3 @@
-a = 5
-b = 10
-sum = a + b
-print("The sum is:", sum)
-
-# Display the result
+a = 10
+b = 20
+print("Sum:", a + b)

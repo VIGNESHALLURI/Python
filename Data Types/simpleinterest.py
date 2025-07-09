@@ -8,5 +8,5 @@ time = float(input("Enter the time (in years): "))
 # Calculate simple interest
 simple_interest = (principal * rate * time) / 100
 
-# Display the result
+# Display the results
 print(f"Simple Interest = {simple_interest}")
